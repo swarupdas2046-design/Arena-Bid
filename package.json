@@ -1,0 +1,10 @@
+{
+  "name": "bidarena",
+  "version": "1.0.0",
+  "description": "BidArena - Real-time Auction Platform",
+  "scripts": {
+    "build": "cd frontend && npm install --include=dev && npm run build && cd ../backend && npm install --omit=dev",
+    "start": "cd backend && node server.js",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  }
+}
